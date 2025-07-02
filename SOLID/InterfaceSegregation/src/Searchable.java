@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public class Searchable {
+public interface Searchable {
+    List<Object> SearchByName(String name);
 }

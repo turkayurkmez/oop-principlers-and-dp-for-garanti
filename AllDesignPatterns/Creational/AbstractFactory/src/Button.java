@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public interface Button {
+    void render();
+    void onClick();
 
-public class Button {
 }
+

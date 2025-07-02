@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
 public class PrinterComponent {
+
+    public  void  Print(Printable document){
+        document.Print();
+    }
 }

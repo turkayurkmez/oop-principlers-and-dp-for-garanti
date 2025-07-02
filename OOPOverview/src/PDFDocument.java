@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
+public class PDFDocument extends Document{
+    @Override
+    public void Open() {
 
-public class PDFDocument {
+    }
+
+    @Override
+    public void Save() {
+
+    }
+
+
+
 }

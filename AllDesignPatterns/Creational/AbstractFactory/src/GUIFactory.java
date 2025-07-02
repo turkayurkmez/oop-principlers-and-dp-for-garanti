@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckBox();
+    TextField createTextField();
 
-public class GUIFactory {
+
 }
+
+

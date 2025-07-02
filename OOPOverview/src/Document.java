@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+public abstract class Document {
+    private String title;
 
-public class Document {
+    public void  Copy(String from, String to){
+        System.out.println("dosya kopyalandı");
+    }
+
+    public abstract void Open();
+
+    public abstract void Save();
+    //public abstract void Print();
+
 }

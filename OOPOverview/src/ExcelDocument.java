@@ -1,4 +1,17 @@
-package PACKAGE_NAME;
+public class ExcelDocument extends  Document implements Printable {
+    @Override
+    public void Open() {
 
-public class ExcelDocument {
+    }
+
+    @Override
+    public void Save() {
+
+    }
+
+
+    @Override
+    public void Print() {
+
+    }
 }
